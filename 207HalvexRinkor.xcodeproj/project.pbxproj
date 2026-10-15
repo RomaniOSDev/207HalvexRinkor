@@ -1,0 +1,636 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0027354C522A6D68162686DC /* HrxPreferencePane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6629482FD9854ED3EC5CF356 /* HrxPreferencePane.swift */; };
+		03AEA22C709098ECF2C14B80 /* HrxRinkVault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D290A278E4626B7A1373E85 /* HrxRinkVault.swift */; };
+		05B211227B641002BD8D0C3A /* HrxChromaKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC353A3E880C9C7FC270E9D /* HrxChromaKit.swift */; };
+		11CAA06EEDB1000BA34ACC8C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D44A35432799EB0A1D0162A /* SceneDelegate.swift */; };
+		1D8F02C67A4E93B15C0D77A2 /* HrxGlideMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3E91A04B2D18F6E0A45C91 /* HrxGlideMath.swift */; };
+		2369F813B9D1C0A364BA7BCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 598A2929BC838816DB7D45CE /* Assets.xcassets */; };
+		2F91C0D84E6A37B5C1D809E4 /* HrxLaneShell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4A90C21B7F58D3A9E014C6 /* HrxLaneShell.swift */; };
+		41220413667570435F056A1A /* HrxGlideModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2138027A9382ADA07610C6C6 /* HrxGlideModels.swift */; };
+		4B18D6E09C3A72F5D1E084A7 /* HrxTraceBoardPane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A70E3C15D2B48F6A8C0173E /* HrxTraceBoardPane.swift */; };
+		4FF66EDC27D9D50E185A9DA6 /* HrxDawnOvalPane.swift in Sources */ = {isa = PBXBuildFile; fileRef = C987ED320226E29417B08866 /* HrxDawnOvalPane.swift */; };
+		5DCEDA644DF7A8719C018F54 /* HrxGlideIntroPane.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4172D353343385570A82C1C /* HrxGlideIntroPane.swift */; };
+		61368DEB25A04C87009C7C1E /* HrxRoutineLoomPane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837B33E0131F16F0C150D6D4 /* HrxRoutineLoomPane.swift */; };
+		69F18E8FCA836411982F6CC0 /* HrxSessionInkPane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A59FD07EEF48481F6F87B69 /* HrxSessionInkPane.swift */; };
+		8999F5ACD654117A453BA4D8 /* HrxWeekGlidePane.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2A794745C0E16D533122A5 /* HrxWeekGlidePane.swift */; };
+		9160CFF5CA9F8E7B6012CC7A /* HrxSkillBoardPane.swift in Sources */ = {isa = PBXBuildFile; fileRef = D078F727B7F706BA7EC76020 /* HrxSkillBoardPane.swift */; };
+		922732E0D9948E8EB09D717D /* HrxKeelIntegral.swift in Sources */ = {isa = PBXBuildFile; fileRef = B189FCECF0FAA66540162D25 /* HrxKeelIntegral.swift */; };
+		9A066732F0219072C1A8B094 /* HrxLaneSurvey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC08C9243135480EC6294A3 /* HrxLaneSurvey.swift */; };
+		9D583301BD50E24B18AE2D6F /* HrxIceNotePane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E953A81066317C948E9E599 /* HrxIceNotePane.swift */; };
+		B80E9BD60CA5064B3B3C3F0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8E65ED24EAE8D8A8A730663 /* Main.storyboard */; };
+		C24C925D5CF8BE1F426A6091 /* HrxLapDialPane.swift in Sources */ = {isa = PBXBuildFile; fileRef = F651DA8ECF72779E26103B4C /* HrxLapDialPane.swift */; };
+		F2822800F90284F82C2CCAE3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFEDCCF203E233C731B73C8 /* AppDelegate.swift */; };
+		F827AD136E69CA3768298006 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A2C6C26B81D3560E69A59A /* ContentView.swift */; };
+		F8F864CFE9718518CECA2548 /* HrxLedgerRollPane.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED418A77756FC9ADA9083B7 /* HrxLedgerRollPane.swift */; };
+		F9DC430991FDE8CD73BC7DD7 /* HrxParchmentGate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF618143FEAD1C45F80DAC7 /* HrxParchmentGate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2138027A9382ADA07610C6C6 /* HrxGlideModels.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HrxGlideModels.swift; sourceTree = "<group>"; };
+		3D290A278E4626B7A1373E85 /* HrxRinkVault.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HrxRinkVault.swift; sourceTree = "<group>"; };
+		3D44A35432799EB0A1D0162A /* SceneDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3EC08C9243135480EC6294A3 /* HrxLaneSurvey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HrxLaneSurvey.swift; sourceTree = "<group>"; };
+		4A59FD07EEF48481F6F87B69 /* HrxSessionInkPane.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HrxSessionInkPane.swift; sourceTree = "<group>"; };
+		598A2929BC838816DB7D45CE /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E953A81066317C948E9E599 /* HrxIceNotePane.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HrxIceNotePane.swift; sourceTree = "<group>"; };
+		6629482FD9854ED3EC5CF356 /* HrxPreferencePane.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HrxPreferencePane.swift; sourceTree = "<group>"; };
+		6E4A90C21B7F58D3A9E014C6 /* HrxLaneShell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HrxLaneShell.swift; sourceTree = "<group>"; };
+		7C3E91A04B2D18F6E0A45C91 /* HrxGlideMath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HrxGlideMath.swift; sourceTree = "<group>"; };
+		837B33E0131F16F0C150D6D4 /* HrxRoutineLoomPane.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HrxRoutineLoomPane.swift; sourceTree = "<group>"; };
+		8679DD2F3030FFFAA5F84C0B /* Pods-207HalvexRinkor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-207HalvexRinkor.debug.xcconfig"; path = "Target Support Files/Pods-207HalvexRinkor/Pods-207HalvexRinkor.debug.xcconfig"; sourceTree = "<group>"; };
+		8AF618143FEAD1C45F80DAC7 /* HrxParchmentGate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HrxParchmentGate.swift; sourceTree = "<group>"; };
+		9A70E3C15D2B48F6A8C0173E /* HrxTraceBoardPane.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HrxTraceBoardPane.swift; sourceTree = "<group>"; };
+		A4172D353343385570A82C1C /* HrxGlideIntroPane.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HrxGlideIntroPane.swift; sourceTree = "<group>"; };
+		A42E998BC7A59E13FFE5E7FE /* 207HalvexRinkor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 207HalvexRinkor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA2A794745C0E16D533122A5 /* HrxWeekGlidePane.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HrxWeekGlidePane.swift; sourceTree = "<group>"; };
+		ACFEDCCF203E233C731B73C8 /* AppDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B189FCECF0FAA66540162D25 /* HrxKeelIntegral.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HrxKeelIntegral.swift; sourceTree = "<group>"; };
+		B60CD8405332A5EE8D71D649 /* Pods-207HalvexRinkor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-207HalvexRinkor.release.xcconfig"; path = "Target Support Files/Pods-207HalvexRinkor/Pods-207HalvexRinkor.release.xcconfig"; sourceTree = "<group>"; };
+		B7A2C6C26B81D3560E69A59A /* ContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C987ED320226E29417B08866 /* HrxDawnOvalPane.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HrxDawnOvalPane.swift; sourceTree = "<group>"; };
+		D078F727B7F706BA7EC76020 /* HrxSkillBoardPane.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HrxSkillBoardPane.swift; sourceTree = "<group>"; };
+		D8E65ED24EAE8D8A8A730663 /* Main.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		ECC353A3E880C9C7FC270E9D /* HrxChromaKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HrxChromaKit.swift; sourceTree = "<group>"; };
+		EED418A77756FC9ADA9083B7 /* HrxLedgerRollPane.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HrxLedgerRollPane.swift; sourceTree = "<group>"; };
+		F651DA8ECF72779E26103B4C /* HrxLapDialPane.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HrxLapDialPane.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B9F40560C81A5AB00D8CA34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		043184DE9A1A56FF677C6B4F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		05717613AECEACC1583CD5D3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B60CD8405332A5EE8D71D649 /* Pods-207HalvexRinkor.release.xcconfig */,
+				8679DD2F3030FFFAA5F84C0B /* Pods-207HalvexRinkor.debug.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		0B6976AB69AFA877456A0457 /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				6629482FD9854ED3EC5CF356 /* HrxPreferencePane.swift */,
+			);
+			path = Preferences;
+			sourceTree = "<group>";
+		};
+		0E0720FC0FA8DD727E506AF5 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				0B6976AB69AFA877456A0457 /* Preferences */,
+				E1A13F102A545C18C2385229 /* Ledger */,
+				26533B06EE84B6B6FB3B1719 /* Week */,
+				BB1D59DD388D5E03AECF7475 /* Skill */,
+				F2DA5E1FA0691B0CD1F494B3 /* Routine */,
+				ADC3FE022F7A684D62768124 /* Lap */,
+				92FD0CDFA2E96283BEC8F647 /* Oval */,
+				CE00D6BD84751240BE2D0D73 /* Notes */,
+				8C25F1A07D4E69B3C2A018D5 /* Shell */,
+				5E92B0C14A7D38F6E1C095B2 /* Trace */,
+				B7A2C6C26B81D3560E69A59A /* ContentView.swift */,
+				C5216726511835C9581DD896 /* Onboarding */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		26533B06EE84B6B6FB3B1719 /* Week */ = {
+			isa = PBXGroup;
+			children = (
+				AA2A794745C0E16D533122A5 /* HrxWeekGlidePane.swift */,
+			);
+			path = Week;
+			sourceTree = "<group>";
+		};
+		34376FDB97D71DB7303FAE93 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				ACFEDCCF203E233C731B73C8 /* AppDelegate.swift */,
+				3D44A35432799EB0A1D0162A /* SceneDelegate.swift */,
+				4CAD23B9B9BEE9105B3A3E0C /* Base.lproj */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		4CAD23B9B9BEE9105B3A3E0C /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				D8E65ED24EAE8D8A8A730663 /* Main.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		5095EF8260B9AABE19BBC814 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				598A2929BC838816DB7D45CE /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		52ED153CC18A58BF66827E92 = {
+			isa = PBXGroup;
+			children = (
+				89C87445E4235FCD1ADA7F38 /* Products */,
+				B167926147C483A29EB11BBA /* Frameworks */,
+				C9FA3768C4972277155564DE /* 207HalvexRinkor */,
+				05717613AECEACC1583CD5D3 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		54C3689A151B3F50CD5818A7 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				3D290A278E4626B7A1373E85 /* HrxRinkVault.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		5E92B0C14A7D38F6E1C095B2 /* Trace */ = {
+			isa = PBXGroup;
+			children = (
+				9A70E3C15D2B48F6A8C0173E /* HrxTraceBoardPane.swift */,
+			);
+			path = Trace;
+			sourceTree = "<group>";
+		};
+		6975F89B75850C827CF346AB /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				2138027A9382ADA07610C6C6 /* HrxGlideModels.swift */,
+				7C3E91A04B2D18F6E0A45C91 /* HrxGlideMath.swift */,
+				B189FCECF0FAA66540162D25 /* HrxKeelIntegral.swift */,
+				3EC08C9243135480EC6294A3 /* HrxLaneSurvey.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		89C87445E4235FCD1ADA7F38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A42E998BC7A59E13FFE5E7FE /* 207HalvexRinkor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C25F1A07D4E69B3C2A018D5 /* Shell */ = {
+			isa = PBXGroup;
+			children = (
+				6E4A90C21B7F58D3A9E014C6 /* HrxLaneShell.swift */,
+			);
+			path = Shell;
+			sourceTree = "<group>";
+		};
+		92FD0CDFA2E96283BEC8F647 /* Oval */ = {
+			isa = PBXGroup;
+			children = (
+				C987ED320226E29417B08866 /* HrxDawnOvalPane.swift */,
+			);
+			path = Oval;
+			sourceTree = "<group>";
+		};
+		A8F114E3BFC9A2423107050B /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				ECC353A3E880C9C7FC270E9D /* HrxChromaKit.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		ADC3FE022F7A684D62768124 /* Lap */ = {
+			isa = PBXGroup;
+			children = (
+				F651DA8ECF72779E26103B4C /* HrxLapDialPane.swift */,
+				4A59FD07EEF48481F6F87B69 /* HrxSessionInkPane.swift */,
+			);
+			path = Lap;
+			sourceTree = "<group>";
+		};
+		B167926147C483A29EB11BBA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				043184DE9A1A56FF677C6B4F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB1D59DD388D5E03AECF7475 /* Skill */ = {
+			isa = PBXGroup;
+			children = (
+				D078F727B7F706BA7EC76020 /* HrxSkillBoardPane.swift */,
+			);
+			path = Skill;
+			sourceTree = "<group>";
+		};
+		C5216726511835C9581DD896 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				A4172D353343385570A82C1C /* HrxGlideIntroPane.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		C9FA3768C4972277155564DE /* 207HalvexRinkor */ = {
+			isa = PBXGroup;
+			children = (
+				34376FDB97D71DB7303FAE93 /* App */,
+				54C3689A151B3F50CD5818A7 /* Storage */,
+				0E0720FC0FA8DD727E506AF5 /* Screens */,
+				A8F114E3BFC9A2423107050B /* Theme */,
+				F6A77050BCCDA40696611728 /* Gate */,
+				6975F89B75850C827CF346AB /* Domain */,
+				5095EF8260B9AABE19BBC814 /* Resources */,
+			);
+			path = 207HalvexRinkor;
+			sourceTree = "<group>";
+		};
+		CE00D6BD84751240BE2D0D73 /* Notes */ = {
+			isa = PBXGroup;
+			children = (
+				5E953A81066317C948E9E599 /* HrxIceNotePane.swift */,
+			);
+			path = Notes;
+			sourceTree = "<group>";
+		};
+		E1A13F102A545C18C2385229 /* Ledger */ = {
+			isa = PBXGroup;
+			children = (
+				EED418A77756FC9ADA9083B7 /* HrxLedgerRollPane.swift */,
+			);
+			path = Ledger;
+			sourceTree = "<group>";
+		};
+		F2DA5E1FA0691B0CD1F494B3 /* Routine */ = {
+			isa = PBXGroup;
+			children = (
+				837B33E0131F16F0C150D6D4 /* HrxRoutineLoomPane.swift */,
+			);
+			path = Routine;
+			sourceTree = "<group>";
+		};
+		F6A77050BCCDA40696611728 /* Gate */ = {
+			isa = PBXGroup;
+			children = (
+				8AF618143FEAD1C45F80DAC7 /* HrxParchmentGate.swift */,
+			);
+			path = Gate;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF351406ED83FD9487AF8570 /* 207HalvexRinkor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFFE9BC638F0BDED7C779BCC /* Build configuration list for PBXNativeTarget "207HalvexRinkor" */;
+			buildPhases = (
+				74443625224105053A52DF82 /* [CP] Check Pods Manifest.lock */,
+				F986ED29606EDED1CD2AB05A /* Sources */,
+				1B9F40560C81A5AB00D8CA34 /* Frameworks */,
+				D87870C919F8531777122B14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 207HalvexRinkor;
+			productName = 207HalvexRinkor;
+			productReference = A42E998BC7A59E13FFE5E7FE /* 207HalvexRinkor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E897CAB2044EAF06074A643C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4B0973B53144F27EDF7BE69F /* Build configuration list for PBXProject "207HalvexRinkor" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52ED153CC18A58BF66827E92;
+			productRefGroup = 89C87445E4235FCD1ADA7F38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF351406ED83FD9487AF8570 /* 207HalvexRinkor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D87870C919F8531777122B14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B80E9BD60CA5064B3B3C3F0A /* Main.storyboard in Resources */,
+				2369F813B9D1C0A364BA7BCC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		74443625224105053A52DF82 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-207HalvexRinkor-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F986ED29606EDED1CD2AB05A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2822800F90284F82C2CCAE3 /* AppDelegate.swift in Sources */,
+				11CAA06EEDB1000BA34ACC8C /* SceneDelegate.swift in Sources */,
+				03AEA22C709098ECF2C14B80 /* HrxRinkVault.swift in Sources */,
+				0027354C522A6D68162686DC /* HrxPreferencePane.swift in Sources */,
+				F8F864CFE9718518CECA2548 /* HrxLedgerRollPane.swift in Sources */,
+				8999F5ACD654117A453BA4D8 /* HrxWeekGlidePane.swift in Sources */,
+				9160CFF5CA9F8E7B6012CC7A /* HrxSkillBoardPane.swift in Sources */,
+				61368DEB25A04C87009C7C1E /* HrxRoutineLoomPane.swift in Sources */,
+				C24C925D5CF8BE1F426A6091 /* HrxLapDialPane.swift in Sources */,
+				69F18E8FCA836411982F6CC0 /* HrxSessionInkPane.swift in Sources */,
+				4FF66EDC27D9D50E185A9DA6 /* HrxDawnOvalPane.swift in Sources */,
+				9D583301BD50E24B18AE2D6F /* HrxIceNotePane.swift in Sources */,
+				F827AD136E69CA3768298006 /* ContentView.swift in Sources */,
+				5DCEDA644DF7A8719C018F54 /* HrxGlideIntroPane.swift in Sources */,
+				05B211227B641002BD8D0C3A /* HrxChromaKit.swift in Sources */,
+				F9DC430991FDE8CD73BC7DD7 /* HrxParchmentGate.swift in Sources */,
+				41220413667570435F056A1A /* HrxGlideModels.swift in Sources */,
+				1D8F02C67A4E93B15C0D77A2 /* HrxGlideMath.swift in Sources */,
+				2F91C0D84E6A37B5C1D809E4 /* HrxLaneShell.swift in Sources */,
+				4B18D6E09C3A72F5D1E084A7 /* HrxTraceBoardPane.swift in Sources */,
+				922732E0D9948E8EB09D717D /* HrxKeelIntegral.swift in Sources */,
+				9A066732F0219072C1A8B094 /* HrxLaneSurvey.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		07EC9065EFFEDD4F080C67D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		1CF7BAD8319FB8EBC53ADF0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8B5991A28AEA7853B123CE11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8679DD2F3030FFFAA5F84C0B /* Pods-207HalvexRinkor.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_TESTABILITY = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = 207HalvexRinkor/App/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "XSkate - Progress";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.car.xsk3t8pr3gr89ss;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EDFC0C59A6D7DC0261654FE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B60CD8405332A5EE8D71D649 /* Pods-207HalvexRinkor.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = 207HalvexRinkor/App/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "XSkate - Progress";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.car.xsk3t8pr3gr89ss;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B0973B53144F27EDF7BE69F /* Build configuration list for PBXProject "207HalvexRinkor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CF7BAD8319FB8EBC53ADF0A /* Debug */,
+				07EC9065EFFEDD4F080C67D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFFE9BC638F0BDED7C779BCC /* Build configuration list for PBXNativeTarget "207HalvexRinkor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDFC0C59A6D7DC0261654FE8 /* Release */,
+				8B5991A28AEA7853B123CE11 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E897CAB2044EAF06074A643C /* Project object */;
+}
